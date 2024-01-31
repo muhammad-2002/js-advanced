@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Observer Example</title>
+        <style>
+            div{
+                height: 200px;
+                width: 200px;
+                background-color: aqua;
+                border: 2px solid pink;
+                border-radius: 10px;
+                margin: 0 auto 20px;
+                opacity: 0;
+                transition: all 0.5s ease-in;
+                transform: scale(1.2);
+            }
+            .visibal{
+                opacity: 1;
+                transform: scale(1);
+            }
+        </style>
+    </head>
+    <body>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+
+        <script src="./intersectionObserver.js"></script>
+    </body>
+</html>
